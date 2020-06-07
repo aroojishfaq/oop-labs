@@ -1,0 +1,2 @@
+1. update email
+2. array for display
