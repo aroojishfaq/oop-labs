@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Game{
+public static void main(String args[])
+ {
+  int n;
+  Random number=new Random ();
+  num=1+number.nexInt(100);
+  System.out.println("Choose a number between 1 to 100");
+  System.out.println("You have 10 tries to guess a number");  
+
+  for (int i=1;i<11;i++)
+    {  System.out.println("Enter Guess number for attempt: "+i );
+       Scanner input=new Scanner (System.in);
+        n=input.nexInt();
+        if (n==number){
+           System.out.println("You won");}
+
+     else if (n<number)){
+           System.out.println("entered number is smaller than a random number to be guessed");}
+   
+      else if (n>number)){
+           System.out.println("entered number is greater than a random number to be guessed");}
+
+
+       if (i==10)&&(n!=number){
+             System.out.println("You lose");  }
+    }
+   }
+ }

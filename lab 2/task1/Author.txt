@@ -1,0 +1,29 @@
+  public class author{
+   String name;
+   String email;
+    public author(String authorname,String authoremail)
+  { 
+      name=authorname;
+      email=authoremail;
+
+}
+   public String getName(){
+  String n=this.name;
+   return n;
+}
+   public String getEmail(){
+   String e=this.email;
+   return e;
+}
+   public void setName(String name){
+   this.name=name;
+
+}
+    public void setEmail(String Email){
+    this.name=name;
+}
+  public void displayA(){
+     System.out.println("Name of author is"+author);
+     System.out.println("Name of email is"+email);
+}
+}
